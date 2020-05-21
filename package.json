@@ -1,0 +1,42 @@
+{
+  "name": "lexicoid",
+  "version": "1.0.0",
+  "description": "website for learning new English words",
+  "main": "server.js",
+  "scripts": {
+    "dev": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustVais/lexicoid.git"
+  },
+  "author": "Vladislav Vikul <vladislav.vikul@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustVais/lexicoid/issues"
+  },
+  "homepage": "https://github.com/JustVais/lexicoid#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "less": "^3.11.1",
+    "less-loader": "^6.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "proxy": "http://localhost:3001"
+}
